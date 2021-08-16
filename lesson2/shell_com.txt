@@ -1,0 +1,4 @@
+mysqldump example > example_1.sql
+mysql sample < example_1.sql
+
+mysqldump --where="true limit 100" mysql --tables help_keyword > help_keyword_2.sql
